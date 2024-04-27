@@ -7,7 +7,7 @@ const Home = () => {
         <div className="display-4 mb-3">Bienvenido a <span className="fw-bold">Happy Cake</span></div>
         <div className="fs-4">El lugar de los pasteles felices</div>
       </div>
-      <img width={200} src={Cake}></img>
+      <img className='cakeimg' src={Cake}></img>
     </div>
   )
 }
